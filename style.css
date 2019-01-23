@@ -1,0 +1,83 @@
+body {background-image:url(mer.jpg);
+	  background-repeat:no-repeat;
+	  background-position:bottom,right;
+	  background-size:cover;
+	background-attachment: fixed;	
+	  line-height:20pt;
+	  color:#000059;
+	  font-size:13pt;
+	  margin-left: 5%;
+		margin-right: 5%;	
+	  width: 90%;
+	  font-family:'Playfair Display';
+	  
+}
+h1 {
+	font-family: 'Playfair Display ZCOOL KuaiLe';
+}
+header {
+	background-color: yellow;
+}
+
+blockquote { 
+			 font-size: 90%;
+			 border-left: 3px solid #B22222;
+			
+
+}
+li:nth-child(1) {
+		list-style-image: url(bien.png)
+}
+li:nth-child(2) {
+		list-style-image: url(mal.png)
+}
+li:nth-child(3) {
+		list-style-image: url(chat.png)
+}
+.village {
+			border: 3px solid #1E3FA7;
+			width: 600px;
+			
+}
+
+.fermier {
+			border: 3px solid #11C720;
+			width: 600px;
+}
+
+.bien {
+	color: green;
+	text-transform: uppercase;
+}
+
+.mal {
+	color: red;
+	text-transform: uppercase;
+}
+.table1{
+	background-color:gray;
+}
+
+.table2{ background-color: white;
+	
+}
+
+img {
+	float: left;
+	
+}
+	
+
+.section0 {
+			display: flex;
+			flex-direction: column;
+}
+.section1 {
+			display: flex;
+			flex-direction: column;
+}
+
+.section2 {
+			display: flex;
+			flex-direction: column;
+}
