@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+$color:black;
 
 body {
 	max-width: 100%;
@@ -8,7 +9,7 @@ body {
 	
 }
 header {
-	background-color: #000000;
+	background-color: $color;
 	width: 100%;
 	
 	
@@ -20,13 +21,8 @@ header {
 	display: flex;
 	 -webkit-justify-content: flex-end;
   justify-content: flex-start;
-	
-	
-	
-	
+		
 }
-
-
 
 #menu a{
 	color:white;
@@ -78,7 +74,7 @@ header {
 	color:black;
 	font-size: 120%;
 	padding-top:0;
-	border-bottom:1px solid rgba(0,0,0.05);
+	border-bottom:1px solid black(0,0,0.05);
 }
 .ligneb1t{
 	font-size: 26px;
@@ -110,9 +106,7 @@ header {
 	position: relative;
 	
 }
-#part3{
-	
-}
+
 
 .ligneb2t{
 	font-size: 26px;
